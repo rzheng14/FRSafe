@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79AEE0E6237DD93800A290FC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AEE0E5237DD93800A290FC /* icon.png */; };
 		79B84B16237B5FD200CBE7D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B84B15237B5FD200CBE7D9 /* AppDelegate.swift */; };
 		79B84B18237B5FD200CBE7D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B84B17237B5FD200CBE7D9 /* SceneDelegate.swift */; };
 		79B84B1A237B5FD200CBE7D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B84B19237B5FD200CBE7D9 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79AEE0E5237DD93800A290FC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		79B84B12237B5FD200CBE7D9 /* FRS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B84B15237B5FD200CBE7D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79B84B17237B5FD200CBE7D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				79B84B1E237B5FD400CBE7D9 /* Assets.xcassets */,
 				79B84B20237B5FD400CBE7D9 /* LaunchScreen.storyboard */,
 				79B84B23237B5FD400CBE7D9 /* Info.plist */,
+				79AEE0E5237DD93800A290FC /* icon.png */,
 			);
 			path = FRS;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B84B22237B5FD400CBE7D9 /* LaunchScreen.storyboard in Resources */,
+				79AEE0E6237DD93800A290FC /* icon.png in Resources */,
 				79B84B1F237B5FD400CBE7D9 /* Assets.xcassets in Resources */,
 				79B84B1D237B5FD200CBE7D9 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXQXW7QLKM;
 				INFOPLIST_FILE = FRS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXQXW7QLKM;
 				INFOPLIST_FILE = FRS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
