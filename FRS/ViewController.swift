@@ -24,7 +24,10 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    snap.layer.cornerRadius = snap.frame.size.width / 2
+    snap.frame = CGRect(x: 136, y: 690, width: 90, height: 90)
+    snap.layer.cornerRadius = 0.5 * snap.bounds.size.width
+    
+    
     snap.clipsToBounds = true
     
     // Sets to front facing camera.
