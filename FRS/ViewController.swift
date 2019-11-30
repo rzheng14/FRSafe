@@ -95,11 +95,12 @@ extension ViewController : AVCapturePhotoCaptureDelegate {
         guard let imageData = AVCapturePhotoOutput.jpegPhotoDataRepresentation(forJPEGSampleBuffer: photoSampleBuffer, previewPhotoSampleBuffer: previewPhotoSampleBuffer) else {
             return
         }
-        
+        /* dtljkajdlkfladk jlj l jdlk jfl;aj lj l;k jl jk jk j kj kj kjakdjf kaf */
         let capturedImage = UIImage.init(data: imageData , scale: 1.0)
         if let image = capturedImage {
             // Saves
             UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+            // `https://dj-frsafe.herokuapp.com/upload/`
         }
     }
 }
